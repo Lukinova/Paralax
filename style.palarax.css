@@ -1,0 +1,102 @@
+html,body{
+	width: 100%;
+	background: #b5b5fe;
+	overflow: hidden;
+}
+.cloud1{
+	background: url(clouds1.png);
+	opacity: .3;
+	height: 2500px;
+	z-index: 50;
+	top: 0;
+}
+.cloud2{
+	background: url(clouds2.png);
+	height: 6525px;
+	z-index: 100;
+	top: 0;
+}
+.clouds{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.balloon{
+	background: url('balloon.png') no-repeat;
+	background-size: contain;
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	z-index: 999999;
+	/*margin-left: 460px;*/
+	margin-top: 450px;
+	left: 50%;
+	margin-left: -170px;
+}
+.balloon1{
+	background: url('balloon1.png') no-repeat;
+	background-size: contain;
+	width: 150px;
+	height: 150px;
+	position: fixed;
+	z-index: 60;
+	right: 0;
+	margin-top: 155px;
+}
+.dir{
+	background: url('dir.png') no-repeat;
+	background-size: contain;
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	z-index: 49;
+	left: 0;
+	margin-left: 400px;
+	top: 100px;
+	margin-top: 500px;
+	opacity: .5;
+}
+.plain1{
+	background: url('plain1.png') no-repeat;
+	background-size: contain;
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	z-index: 9999;
+	margin-left: -200px;
+	top: 100px;
+	margin-top: 45px;
+}
+.plain2{
+	background: url('plain2.png') no-repeat;
+	background-size: contain;
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	z-index: 51;
+	margin-left: 0px;
+	top: 500px;
+	left:2200px;
+	margin-top: 45px;
+}
+.welcome{
+	width: 800px;
+    height: 500px;
+    /* margin: 0 auto; */
+    background: #fff;
+    position: fixed;
+    left: 17%;
+    z-index: 999999;
+    top: 100px;
+    opacity: 0;
+    text-align: center;
+    color: cadetblue;
+    border-radius: 20px;
+    padding: 50px;
+    transition: .5s;
+    box-shadow: none;
+}
+.btn btn-outline-info{
+	z-index: 9999999999;
+}
